@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suvidha | Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">Suvidha.</a>
+            <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation"
+                aria-expanded="false">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="tag">WELCOME TO MY PORTFOLIO</p>
+                <h1>Hello, I'm <span>Suvidha Janwade</span></h1>
+                <h2>BCS Student | Aspiring Data Analyst</h2>
+                <p>
+                    I am a Computer Science student interested in data analysis,
+                    technology and web development. I enjoy learning new skills
+                    and solving problems using data.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn">View My Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <p class="tag">GET TO KNOW ME</p>
+            <h2 class="section-title">About Me</h2>
+            <div class="about-card">
+                <p>
+                    I am a third-year Bachelor of Computer Science (BCS) student
+                    from BAMU University. I am developing my skills in Excel,
+                    Python, data analysis and web development. My goal is to
+                    start my career in the IT industry and gain practical
+                    experience through real-world projects.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills" class="section section-alt">
+            <p class="tag">WHAT I AM LEARNING</p>
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">Microsoft Excel</div>
+                <div class="skill-card">Python & Pandas</div>
+                <div class="skill-card">Power BI</div>
+                <div class="skill-card">Data Cleaning</div>
+                <div class="skill-card">Data Visualization</div>
+                <div class="skill-card">HTML & CSS</div>
+                <div class="skill-card">JavaScript</div>
+                <div class="skill-card">Git & GitHub</div>
+            </div>
+            <p class="note">Keep only the skills you can explain in an interview.</p>
+        </section>
+
+        <section id="projects" class="section">
+            <p class="tag">MY WORK</p>
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-icon">📊</div>
+                    <h3>Titanic Data Analysis</h3>
+                    <p>
+                        Cleaned and explored Titanic passenger data using
+                        Python and Pandas to understand survival patterns.
+                    </p>
+                    <p class="tech">Python · Pandas · Data Analysis</p>
+                    <a href="https://github.com/suvidha-j"
+                       target="_blank" rel="noopener noreferrer">
+                       View on GitHub ↗
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-icon">📈</div>
+                    <h3>Power BI Dashboard</h3>
+                    <p>
+                        Created a Titanic dashboard to explore survival rates
+                        and compare survival by gender.
+                    </p>
+                    <p class="tech">Power BI · Charts · Visualization</p>
+                    <a href="https://github.com/suvidha-j"
+                       target="_blank" rel="noopener noreferrer">
+                       View on GitHub ↗
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-icon">💻</div>
+                    <h3>Responsive Landing Page</h3>
+                    <p>
+                        Built a responsive webpage with navigation and a
+                        layout designed for desktop and mobile screens.
+                    </p>
+                    <p class="tech">HTML · CSS · JavaScript</p>
+                    <a href="https://suvidha-j.github.io/SWYNEX-Production-Frontend-Project/"
+                       target="_blank" rel="noopener noreferrer">
+                       View Live Website ↗
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="section section-alt">
+            <p class="tag">LET'S CONNECT</p>
+            <h2 class="section-title">Contact Me</h2>
+            <p class="contact-text">
+                I am looking for opportunities to learn, grow and begin my
+                career in the IT industry.
+            </p>
+            <div class="contact-links">
+                <a href="https://github.com/suvidha-j"
+                   target="_blank" rel="noopener noreferrer">GitHub</a>
+
+                <!-- Replace this with your actual LinkedIn profile URL -->
+                <a href="https://www.linkedin.com/"
+                   target="_blank" rel="noopener noreferrer">LinkedIn</a>
+
+                <!-- Replace with your actual email address -->
+                <a href="mailto:your-email@example.com">Email Me</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> Suvidha Janwade | Personal Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
